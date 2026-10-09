@@ -1,0 +1,60 @@
+/* Stacked layout: the road is the bottom edge of the screen. The wheels sit
+   at 71/80 of the drawing's height, hence the small downward offset. */
+.truck {
+  --truck: 72px;
+  position: fixed;
+  left: 0;
+  bottom: calc(var(--frame) - var(--truck) * 0.075);
+  z-index: 70;
+  width: var(--truck);
+  pointer-events: none;
+  visibility: hidden;
+  will-change: transform;
+}
+
+/* Shown once it has been placed, so it never flashes at the wrong spot. */
+.truck[data-ready="true"] {
+  visibility: visible;
+}
+
+.truck[hidden] {
+  display: none;
+}
+
+.flip {
+  position: relative;
+}
+
+.truck svg {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.wheel {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+/* Smoke leaves from the chimney, 68/120 across the drawing. */
+.puff {
+  position: absolute;
+  left: 56.6%;
+  top: 0;
+  width: calc(var(--truck) * 0.16);
+  aspect-ratio: 1;
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  background: var(--paper);
+  opacity: 0;
+}
+
+/* Sideways layout: the road is the bottom line of the top bar. The script
+   sets the exact height from the bar itself. */
+@media (min-width: 861px) and (min-height: 640px) {
+  .truck {
+    --truck: 64px;
+    top: var(--frame);
+    bottom: auto;
+  }
+}

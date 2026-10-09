@@ -53,10 +53,10 @@ export default function Header({ lang, nav, bookHref }: Props) {
   return (
     <>
       <header className={styles.bar}>
-        <a className={styles.wordmark} href="#top">
+        <a className={styles.wordmark} href="#top" data-road="start">
           {site.name}
         </a>
-        <nav className={styles.langs} aria-label={nav.language}>
+        <nav className={styles.langs} aria-label={nav.language} data-road="end">
           {locales.map((locale) => (
             <Link
               key={locale}
@@ -97,7 +97,7 @@ export default function Header({ lang, nav, bookHref }: Props) {
         </ol>
       </nav>
 
-      <a className={styles.book} href={bookHref}>
+      <a className={styles.book} href={bookHref} data-road="sticker">
         {nav.book}
       </a>
 

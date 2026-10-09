@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { notFound } from "next/navigation";
 import Header from "@/components/Header";
+import Truck from "@/components/Truck";
 import { getDictionary, hasLocale, locales } from "@/lib/i18n";
 import { mailto, site } from "@/lib/site";
 import "../globals.css";
@@ -65,6 +66,7 @@ export default async function RootLayout({
           bookHref={mailto(dict.contact.subject)}
         />
         {children}
+        <Truck />
       </body>
     </html>
   );
