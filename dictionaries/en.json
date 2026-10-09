@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "title": "Che Corrado — Creative chef, Zürich",
+    "description": "Che Corrado is a creative chef trained at El Bulli. Cuina Petita is his mobile kitchen: chef's table, showcase cooking, catering and a food truck in and around Zürich."
+  },
+  "nav": {
+    "chef": "The chef",
+    "cuina": "Cuina Petita",
+    "services": "What we do",
+    "menu": "Menu",
+    "club": "The club",
+    "contact": "Contact",
+    "open": "Menu",
+    "close": "Close",
+    "book": "Book",
+    "language": "Language",
+    "skip": "Skip to content",
+    "sections": "Sections"
+  },
+  "hero": {
+    "labels": [
+      "Creative chef",
+      "Bulliano",
+      "Zürich"
+    ],
+    "intro": "Fire, the market and a small kitchen that travels. Chef's table, showcase cooking and catering in and around Zürich.",
+    "hint": "Catch what falls",
+    "photo": "Paella cooking over an open wood fire"
+  },
+  "marquee": [
+    "Fuego",
+    "Cuina Petita",
+    "Chef's table",
+    "Showcase cooking",
+    "Catering",
+    "Zürich"
+  ],
+  "chef": {
+    "label": "The chef",
+    "title": "Bulliano.",
+    "paragraphs": [
+      "Che Corrado is a creative chef trained at El Bulli, in Cala Montjoi on the Catalan coast.",
+      "There, Cuina Petita, the small kitchen, cooked the daily family meal for the Bullianos: a brigade of 75. Everything that came after starts in that room.",
+      "Today Che cooks Spanish and Argentine food over charcoal in Switzerland, at private tables, at public events and from the hatch of a food truck."
+    ],
+    "quote": "It is in the kitchen where a chef lives and dies, his true body without which he could not express his full potential.",
+    "photo": "Cuts of meat on a grill over embers"
+  },
+  "cuina": {
+    "label": "The project",
+    "title": "Cuina Petita",
+    "aside": "small kitchen",
+    "lead": "A mobile, sustainable and ancestral kitchen that brings people together and feeds the meeting point well.",
+    "stat": "75",
+    "statText": "people in the El Bulli brigade that the original Cuina Petita fed every day.",
+    "pillars": [
+      {
+        "title": "Mobile",
+        "text": "A kitchen on wheels. It comes to the square, the courtyard, the festival, your garden."
+      },
+      {
+        "title": "Sustainable",
+        "text": "Fresh produce straight from the market, careful preparation, and work to neutralise our CO₂."
+      },
+      {
+        "title": "Ancestral",
+        "text": "Fire, embers and time. Old techniques, cooked family-style for everyone at the table."
+      }
+    ]
+  },
+  "services": {
+    "label": "What we do",
+    "title": "The fire travels",
+    "items": [
+      {
+        "title": "Chef's table",
+        "text": "A few seats, one menu, and the chef cooking in front of you."
+      },
+      {
+        "title": "Showcase cooking",
+        "text": "Live cooking at private and public events, with the fire as the stage."
+      },
+      {
+        "title": "Catering",
+        "text": "Spanish and Argentine grill specialities for celebrations and companies."
+      },
+      {
+        "title": "Food truck",
+        "text": "Cuina Petita on the road, at street food festivals and markets."
+      }
+    ]
+  },
+  "menu": {
+    "label": "Menu",
+    "title": "From the embers",
+    "items": [
+      {
+        "name": "Capricho ox burger",
+        "text": "Premium beef over charcoal, caramelised onion, rocket",
+        "price": "30"
+      },
+      {
+        "name": "Galician octopus pepito",
+        "text": "Grilled octopus, smoked pimientos de Padrón, mashed potato",
+        "price": "35"
+      },
+      {
+        "name": "Asado",
+        "text": "Roasted meat and premium cuts, for events",
+        "price": ""
+      },
+      {
+        "name": "Market menu",
+        "text": "Whatever the market brings that day",
+        "price": ""
+      }
+    ],
+    "onRequest": "on request",
+    "note": "Sample dishes. The menu changes with the market and the season."
+  },
+  "club": {
+    "label": "The club",
+    "title": "Join the club",
+    "text": "Cuina Petita is also a gastronomy club: themed dinners, a kitchen that moves and one long table. Write to us and we will tell you where the fire is lit next.",
+    "cta": "I want in",
+    "subject": "Cuina Petita Club"
+  },
+  "instagram": {
+    "label": "Instagram",
+    "title": "Follow the fire",
+    "photos": [
+      "Wood fire and meat on a brick grill",
+      "Galician-style octopus on a plate",
+      "Fried Padrón peppers",
+      "Grilled ribs and chorizo on a board",
+      "Grilled octopus with potatoes",
+      "Steaming paella over a fire"
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's cook",
+    "call": "Call",
+    "write": "Write",
+    "find": "Find",
+    "follow": "Follow",
+    "subject": "Booking request"
+  },
+  "footer": {
+    "top": "Back to top",
+    "type": "Set in Libron"
+  }
+}

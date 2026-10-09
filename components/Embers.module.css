@@ -1,0 +1,64 @@
+.field {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* A lane is as tall as the hero, so translating it by its own height
+   carries the drop from above the top edge to below the bottom edge. */
+.lane {
+  position: absolute;
+  top: 0;
+  width: clamp(56px, 8.5vw, 132px);
+  height: 100%;
+  animation: fall var(--duration) linear var(--delay) infinite;
+}
+
+.lane:has(.drop:hover),
+.lane:has(.drop:focus-visible) {
+  animation-play-state: paused;
+}
+
+.drop {
+  display: block;
+  pointer-events: auto;
+  animation: spin calc(var(--duration) * 0.7) linear infinite;
+}
+
+.drop svg {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.drop:hover svg {
+  transform: scale(1.25);
+}
+
+@keyframes fall {
+  from {
+    transform: translateY(-25%);
+  }
+  to {
+    transform: translateY(105%);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lane {
+    animation: none;
+    transform: translateY(var(--rest));
+  }
+
+  .drop {
+    animation: none;
+  }
+}

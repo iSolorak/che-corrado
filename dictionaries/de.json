@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "title": "Che Corrado — Kreativer Koch, Zürich",
+    "description": "Che Corrado ist ein kreativer Koch, ausgebildet im El Bulli. Cuina Petita ist seine mobile Küche: Chef's Table, Showcooking, Catering und Foodtruck in und um Zürich."
+  },
+  "nav": {
+    "chef": "Der Koch",
+    "cuina": "Cuina Petita",
+    "services": "Was wir machen",
+    "menu": "Karte",
+    "club": "Der Club",
+    "contact": "Kontakt",
+    "open": "Menü",
+    "close": "Schliessen",
+    "book": "Buchen",
+    "language": "Sprache",
+    "skip": "Zum Inhalt springen",
+    "sections": "Bereiche"
+  },
+  "hero": {
+    "labels": [
+      "Kreativer Koch",
+      "Bulliano",
+      "Zürich"
+    ],
+    "intro": "Feuer, Markt und eine kleine Küche, die reist. Chef's Table, Showcooking und Catering in und um Zürich.",
+    "hint": "Fang, was fällt",
+    "photo": "Paella über offenem Holzfeuer"
+  },
+  "marquee": [
+    "Fuego",
+    "Cuina Petita",
+    "Chef's Table",
+    "Showcooking",
+    "Catering",
+    "Zürich"
+  ],
+  "chef": {
+    "label": "Der Koch",
+    "title": "Bulliano.",
+    "paragraphs": [
+      "Che Corrado ist ein kreativer Koch, ausgebildet im El Bulli in der Cala Montjoi an der katalanischen Küste.",
+      "Dort kochte die Cuina Petita, die kleine Küche, jeden Tag das Personalessen für die Bullianos: eine Brigade von 75 Leuten. Alles, was danach kam, beginnt in diesem Raum.",
+      "Heute kocht Che in der Schweiz spanische und argentinische Gerichte über Holzkohle, an privaten Tischen, an öffentlichen Anlässen und aus der Luke eines Foodtrucks."
+    ],
+    "quote": "In der Küche lebt und stirbt ein Koch. Sie ist sein wahrer Körper, ohne den er sein volles Potenzial nicht ausdrücken könnte.",
+    "photo": "Fleischstücke auf dem Grill über der Glut"
+  },
+  "cuina": {
+    "label": "Das Projekt",
+    "title": "Cuina Petita",
+    "aside": "kleine Küche",
+    "lead": "Eine mobile, nachhaltige und ursprüngliche Küche, die Menschen zusammenbringt und den Treffpunkt gut versorgt.",
+    "stat": "75",
+    "statText": "Leute in der Brigade des El Bulli, die die ursprüngliche Cuina Petita jeden Tag bekochte.",
+    "pillars": [
+      {
+        "title": "Mobil",
+        "text": "Eine Küche auf Rädern. Sie kommt auf den Platz, in den Hof, ans Festival, in deinen Garten."
+      },
+      {
+        "title": "Nachhaltig",
+        "text": "Frische Produkte direkt vom Markt, sorgfältige Zubereitung und Arbeit daran, unser CO₂ zu neutralisieren."
+      },
+      {
+        "title": "Ursprünglich",
+        "text": "Feuer, Glut und Zeit. Alte Techniken, familiär gekocht für alle am Tisch."
+      }
+    ]
+  },
+  "services": {
+    "label": "Was wir machen",
+    "title": "Das Feuer reist",
+    "items": [
+      {
+        "title": "Chef's Table",
+        "text": "Wenige Plätze, ein Menü und der Koch, der vor dir kocht."
+      },
+      {
+        "title": "Showcooking",
+        "text": "Live-Kochen an privaten und öffentlichen Anlässen, mit dem Feuer als Bühne."
+      },
+      {
+        "title": "Catering",
+        "text": "Spanische und argentinische Grillspezialitäten für Feste und Firmen."
+      },
+      {
+        "title": "Foodtruck",
+        "text": "Cuina Petita unterwegs, an Streetfood-Festivals und Märkten."
+      }
+    ]
+  },
+  "menu": {
+    "label": "Karte",
+    "title": "Aus der Glut",
+    "items": [
+      {
+        "name": "Capricho Ochsenburger",
+        "text": "Premium-Rind vom Holzkohlegrill, karamellisierte Zwiebeln, Rucola",
+        "price": "30"
+      },
+      {
+        "name": "Pepito mit Pulpo nach galicischer Art",
+        "text": "Grillierter Pulpo, geräucherte Pimientos de Padrón, Kartoffelstock",
+        "price": "35"
+      },
+      {
+        "name": "Asado",
+        "text": "Gebratenes Fleisch und Premium-Stücke, für Anlässe",
+        "price": ""
+      },
+      {
+        "name": "Marktmenü",
+        "text": "Was der Markt an diesem Tag bringt",
+        "price": ""
+      }
+    ],
+    "onRequest": "auf Anfrage",
+    "note": "Beispielgerichte. Die Karte wechselt mit Markt und Saison."
+  },
+  "club": {
+    "label": "Der Club",
+    "title": "Komm in den Club",
+    "text": "Cuina Petita ist auch ein Gastronomie-Club: Themenabende, eine Küche in Bewegung und ein langer Tisch. Schreib uns, und wir sagen dir, wo das nächste Feuer brennt.",
+    "cta": "Ich bin dabei",
+    "subject": "Cuina Petita Club"
+  },
+  "instagram": {
+    "label": "Instagram",
+    "title": "Folge dem Feuer",
+    "photos": [
+      "Holzfeuer und Fleisch auf einem gemauerten Grill",
+      "Pulpo nach galicischer Art auf einem Teller",
+      "Gebratene Pimientos de Padrón",
+      "Grillierte Rippen und Chorizo auf einem Brett",
+      "Grillierter Pulpo mit Kartoffeln",
+      "Dampfende Paella über dem Feuer"
+    ]
+  },
+  "contact": {
+    "label": "Kontakt",
+    "title": "Kochen wir",
+    "call": "Anrufen",
+    "write": "Schreiben",
+    "find": "Finden",
+    "follow": "Folgen",
+    "subject": "Buchungsanfrage"
+  },
+  "footer": {
+    "top": "Nach oben",
+    "type": "Gesetzt in Libron"
+  }
+}

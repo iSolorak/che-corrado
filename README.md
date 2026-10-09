@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Che Corrado
 
-## Getting Started
+One-page site for chef Che Corrado and Cuina Petita. Next.js (App Router), three languages (`/en`, `/es`, `/de`), set in Libron.
 
-First, run the development server:
+## Develop
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev        # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deploy (pm2, port 9001)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+pm2 must be installed once on the server: `npm install -g pm2`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+git pull
+npm run deploy     # install, build, then start or reload the pm2 process
+```
 
-## Learn More
+The app runs as the pm2 process `che-corrado` on port 9001 (set in `ecosystem.config.js`). Point your reverse proxy at `http://127.0.0.1:9001`.
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run logs       # tail the pm2 logs (also written to logs/)
+npm run stop       # remove the pm2 process
+pm2 startup        # once, so pm2 restarts the app after a reboot
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Where things are
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `dictionaries/` — all copy, one file per language
+- `lib/site.ts` — phone, email, address, Instagram handles
+- `public/img/` — photos; the current ones are placeholders, credited in `public/img/CREDITS.md`
+- `components/` — one file per section; shared layout in `sections.module.css`

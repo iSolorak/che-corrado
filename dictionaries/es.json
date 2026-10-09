@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "title": "Che Corrado — Chef creativo, Zúrich",
+    "description": "Che Corrado es un chef creativo formado en El Bulli. Cuina Petita es su cocina móvil: chef's table, showcooking, catering y food truck en Zúrich y alrededores."
+  },
+  "nav": {
+    "chef": "El chef",
+    "cuina": "Cuina Petita",
+    "services": "Qué hacemos",
+    "menu": "Carta",
+    "club": "El club",
+    "contact": "Contacto",
+    "open": "Menú",
+    "close": "Cerrar",
+    "book": "Reservar",
+    "language": "Idioma",
+    "skip": "Saltar al contenido",
+    "sections": "Secciones"
+  },
+  "hero": {
+    "labels": [
+      "Chef creativo",
+      "Bulliano",
+      "Zúrich"
+    ],
+    "intro": "Fuego, mercado y una cocina pequeña que viaja. Chef's table, showcooking y catering en Zúrich y alrededores.",
+    "hint": "Atrapa lo que cae",
+    "photo": "Paella cocinándose sobre fuego de leña"
+  },
+  "marquee": [
+    "Fuego",
+    "Cuina Petita",
+    "Chef's table",
+    "Showcooking",
+    "Catering",
+    "Zúrich"
+  ],
+  "chef": {
+    "label": "El chef",
+    "title": "Bulliano.",
+    "paragraphs": [
+      "Che Corrado es un chef creativo formado en El Bulli, en Cala Montjoi, en la costa catalana.",
+      "Allí, Cuina Petita, la cocina pequeña, preparaba cada día la comida de familia para los bullianos: una brigada de 75 personas. Todo lo que vino después empieza en esa sala.",
+      "Hoy Che cocina a la brasa platos españoles y argentinos en Suiza, en mesas privadas, en eventos públicos y desde la ventana de un food truck."
+    ],
+    "quote": "Es en la cocina donde un chef vive y muere, su verdadero cuerpo, sin el cual no podría expresar todo su potencial.",
+    "photo": "Cortes de carne en la parrilla sobre brasas"
+  },
+  "cuina": {
+    "label": "El proyecto",
+    "title": "Cuina Petita",
+    "aside": "cocina pequeña",
+    "lead": "Una cocina móvil, sostenible y ancestral que reúne a la gente y da bien de comer en el punto de encuentro.",
+    "stat": "75",
+    "statText": "personas en la brigada de El Bulli a las que la Cuina Petita original daba de comer cada día.",
+    "pillars": [
+      {
+        "title": "Móvil",
+        "text": "Una cocina sobre ruedas. Llega a la plaza, al patio, al festival, a tu jardín."
+      },
+      {
+        "title": "Sostenible",
+        "text": "Producto fresco directo del mercado, elaboración cuidada y trabajo para neutralizar nuestro CO₂."
+      },
+      {
+        "title": "Ancestral",
+        "text": "Fuego, brasas y tiempo. Técnicas antiguas, cocinadas en familia para toda la mesa."
+      }
+    ]
+  },
+  "services": {
+    "label": "Qué hacemos",
+    "title": "El fuego viaja",
+    "items": [
+      {
+        "title": "Chef's table",
+        "text": "Pocas sillas, un menú y el chef cocinando delante de ti."
+      },
+      {
+        "title": "Showcooking",
+        "text": "Cocina en directo en eventos privados y públicos, con el fuego como escenario."
+      },
+      {
+        "title": "Catering",
+        "text": "Especialidades españolas y argentinas a la parrilla para celebraciones y empresas."
+      },
+      {
+        "title": "Food truck",
+        "text": "Cuina Petita en ruta, en festivales de street food y mercados."
+      }
+    ]
+  },
+  "menu": {
+    "label": "Carta",
+    "title": "De las brasas",
+    "items": [
+      {
+        "name": "Hamburguesa de buey Capricho",
+        "text": "Buey premium a la brasa, cebolla caramelizada, rúcula",
+        "price": "30"
+      },
+      {
+        "name": "Pepito de pulpo a la gallega",
+        "text": "Pulpo a la parrilla, pimientos de Padrón ahumados, puré de patata",
+        "price": "35"
+      },
+      {
+        "name": "Asado",
+        "text": "Carne asada y cortes premium, para eventos",
+        "price": ""
+      },
+      {
+        "name": "Menú de mercado",
+        "text": "Lo que traiga el mercado ese día",
+        "price": ""
+      }
+    ],
+    "onRequest": "a consultar",
+    "note": "Platos de muestra. La carta cambia con el mercado y la temporada."
+  },
+  "club": {
+    "label": "El club",
+    "title": "Únete al club",
+    "text": "Cuina Petita también es un club gastronómico: cenas temáticas, una cocina que se mueve y una mesa larga. Escríbenos y te contamos dónde se enciende el próximo fuego.",
+    "cta": "Me apunto",
+    "subject": "Club Cuina Petita"
+  },
+  "instagram": {
+    "label": "Instagram",
+    "title": "Sigue el fuego",
+    "photos": [
+      "Fuego de leña y carne en una parrilla de ladrillo",
+      "Pulpo a la gallega en un plato",
+      "Pimientos de Padrón fritos",
+      "Costillas y chorizo a la parrilla sobre una tabla",
+      "Pulpo a la parrilla con patatas",
+      "Paella humeante sobre el fuego"
+    ]
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "A cocinar",
+    "call": "Llama",
+    "write": "Escribe",
+    "find": "Encuentra",
+    "follow": "Sigue",
+    "subject": "Solicitud de reserva"
+  },
+  "footer": {
+    "top": "Volver arriba",
+    "type": "Compuesto en Libron"
+  }
+}
